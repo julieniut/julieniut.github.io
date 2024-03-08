@@ -14511,6 +14511,11 @@ body.white-version {
 }
 
 .read embed {
-  padding: 2%; /* Ajustez la valeur du padding selon vos besoins */
+  padding: 2%; 
 }
 
+@media screen and (max-width: 768px) {
+  .read embed {
+      width: 100%; 
+  }
+}
