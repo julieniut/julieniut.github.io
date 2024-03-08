@@ -13270,6 +13270,9 @@ Rn Slick Dots Style
       background: linear-gradient(to right bottom, #212428, #16181c);
       opacity: 0;
       z-index: -1; }
+    @media screen and (max-width: 992px) {
+        .thumbnail img {
+            display: none;} }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .testimonial-activation button.slide-arrow {
         top: auto;
@@ -14510,3 +14513,4 @@ body.white-version {
 .read embed {
   padding: 2%; /* Ajustez la valeur du padding selon vos besoins */
 }
+
