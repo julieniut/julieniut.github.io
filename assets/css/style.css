@@ -14518,4 +14518,8 @@ body.white-version {
   .read embed {
       width: 100%; 
   }
+  
+  #Tabs img{
+    width: 100%; 
+  }
 }
