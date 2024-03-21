@@ -5152,7 +5152,8 @@ ul.slick-dots {
   border-radius: 15px; }
   .rn-video-popup-area .thumbnail img {
     border-radius: 8px;
-    object-fit: cover; }
+    object-fit: cover;
+    width:90%;  }
 
 .color-body-white {
   color: var(--color-body-white) !important; }
@@ -9076,7 +9077,7 @@ figcaption {
         font-size: 16px;
         line-height: 30px;
         color: var(--color-lightn);
-        padding-right: 16%;
+        padding-right: 10%;
         opacity: 0.9; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .slide .content .inner .description {
